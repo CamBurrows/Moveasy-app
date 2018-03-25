@@ -1004,7 +1004,7 @@ var getCityId = function(city) {
 var widgeOnLoad = function() {
   openMap();
   weatherFunc();
-  realEstate();
+  // realEstate();
   statePopulation(state, city);
   getCityId(city + " " + state);
 };

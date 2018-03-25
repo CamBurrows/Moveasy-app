@@ -11,13 +11,13 @@
     <!-- Foundation CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script>
+    <!-- <script>
         jQuery.ajaxPrefilter(function (options) {
             if (options.crossDomain && jQuery.support.cors) {
                 options.url = 'https://uncc-cors-proxy.herokuapp.com/' + options.url;
             }
         });
-    </script>
+    </script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/moveasy-icon.ico" type="image/x-icon">    
@@ -224,12 +224,12 @@
                                                 </div>
                                             </div>
 
-                                            <div class="cell">
+                                            <!-- <div class="cell">
                                                 <div class="card">
                                                     <div class="card-section" id="realEstateDiv">
-                                                        <h4>Local Real Estate</h4>
+                                                        <h4>Local Real Estate</h4> -->
                                                         <!-- Real Estate Widget -->
-                                                        <ul class="tabs" data-tabs id="example-tabs">
+                                                        <!-- <ul class="tabs" data-tabs id="example-tabs">
                                                             <li class="tabs-title is-active">
                                                                 <a href="#panel0" aria-selected="true">1</a>
                                                             </li>
@@ -264,6 +264,22 @@
 
                                                             </div>
                                                         </div>
+
+                                                    </div>
+                                                </div>
+                                            </div> -->
+
+                                            <!-- Demographic widget -->
+                                            <div class="cell">
+                                                <div class="card">
+                                                    <div class="card-section" id="demographics">
+                                                        <h4>Demographics</h4>
+                                                        <img id="size-symbol" src="assets/images/city-icon-large.png" style="height:270px">
+                                                        <p id="pop-caption">
+                                                            <span id="name-of-city"></span>'s population is
+                                                            <span id="pop"></span>.</p>
+                                                        <p id="size-classification">Classification: 
+                                                            <span id="city-size-cat"></span></p>
 
                                                     </div>
                                                 </div>
@@ -374,7 +390,7 @@
                                             </div>
 
                                             <!-- Demographic widget -->
-                                            <div class="cell">
+                                            <!-- <div class="cell">
                                                 <div class="card">
                                                     <div class="card-section" id="demographics">
                                                         <h4>Demographics</h4>
@@ -387,7 +403,7 @@
 
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
 
                                             <!-- Percent Match widget -->
                                             <!-- <div class="cell">
